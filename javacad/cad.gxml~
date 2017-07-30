@@ -1,0 +1,24 @@
+<gxml>
+	<volume name="OpticalGasVolume" color="444444" style="wireframe" material="Air_Opt" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="fc" />
+	<volume name="Aluminum" color="4444ff" style="0" material="G4_Al" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" />
+	<volume name="AerogelTiles" color="664444" style="0" material="aerogel" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" />
+	<volume name="CFRP" color="44ff44" style="0" material="CarbonFiber" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" />
+<volume name="MirrorSupport" color="ffbf00" style="0" material="CarbonFiber" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" />
+	<volume name="TedlarWrapping" color="444444" style="0" material="Air_Opt" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" />
+<volume name="Mirror1" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 1" />
+<volume name="Mirror2" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 2" />
+<volume name="Mirror3" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 3" />
+<volume name="Mirror4" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 4" />
+<volume name="Mirror5" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 5" />
+<volume name="Mirror6” color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 6" />
+<volume name="Mirror7” color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 7" />
+<volume name="Mirror8" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 8" />
+<volume name="Mirror9" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 9" />
+<volume name="Mirror10" color="331a00" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 10" />
+	<volume name="Glass" color="777777" style="0" material="G4_SILICON_DIOXIDE" position="0.000000*cm 0.000000*cm 0.000000*cm" rotation="0 0 0" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 2" />
+<volume name="BottomMirror" color="b399ff" style="0" material="CarbonFiber" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 20" />
+<volume name="BottomLeftMirror" color="9900ff" style="0" material="G4_SILICON_DIOXIDE" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 81" />
+	<volume name="TopLeftMirror" color="9900ff" style="0" material="G4_SILICON_DIOXIDE" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 82" />
+<volume name="BottomRightMirror" color="9900ff" style="0" material="G4_SILICON_DIOXIDE" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 91" />
+	<volume name="TopRightMirror" color="9900ff" style="0" material="G4_SILICON_DIOXIDE" position="" rotation="" mother="OpticalGasVolume" sensitivity="mirror: rich_AlMgF2" identifiers="id manual 92" />
+</gxml>
