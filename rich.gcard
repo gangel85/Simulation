@@ -1,0 +1,34 @@
+<gcard>
+<!-- Forward Carriage -->
+	<detector name="../fc/forwardCarriage"      factory="TEXT" variation="original"/>
+	<option name="geometry" value="800x600" />
+
+<!-- central detectors -->
+	<detector name="../bst/bst"               factory="TEXT" variation="java"/>	<detector name="../cnd/cnd"               factory="TEXT" variation="original"/>
+
+	<!--	ctof, original volumes
+	<detector name="../ctof/ctof"             factory="TEXT" variation="original"/>
+	-->
+
+	<!--	ctof, cad volumes	-->
+	<detector name="../ctof/ctof"             factory="TEXT" variation="cad"/>
+	<detector name="../ctof/cad/"             factory="CAD"/>
+
+	<!--	RICH Detector	-->
+
+    <detector name="javacad/" factory="CAD"/>
+    <detector name="rich" factory="TEXT" variation="java"/>
+
+
+	<!--	PHYS and OUTPUT	-->
+       <option name="PHYSICS" value="FTFP_BERT + STD + Optical"/>
+
+        <option name="INTEGRATEDRAW" value="rich mirror"/>
+        <option name="RECORD_MIRRORS"     value="1"/>
+        <option name="RECORD_PASSBY"     value="1"/>
+        <option name="OUTPUT"   value="evio, MirrorTest.evio"/>
+
+
+	<!--	BEAM info	-->
+         <option name="INPUT_GEN_FILE" value="LUND, ./lund/clasdispr.00.e11.000.emn0.75tmn.09.xs65.61nb.dis.0114.dat"/>
+</gcard>
